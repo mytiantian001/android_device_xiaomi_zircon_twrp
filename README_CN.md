@@ -27,7 +27,7 @@ Redmi Note 13 Pro+ (代号 _"zircon"_) 是一款小米出品的智能手机。
 **正常工作的功能:**
 
 - [X] ADB
-- [X] 解密 (Android 15)
+- [X] 解密 (Android 16)
 - [X] 显示
 - [X] Fasbootd
 - [X] 刷机

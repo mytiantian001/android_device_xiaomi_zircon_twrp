@@ -27,7 +27,7 @@ Display |	1220 x 2712 pixels, 6.67 inches, 120 Hz, AMOLED
 Works:
 
 - [X] ADB
-- [X] Decryption (Android 15)
+- [X] Decryption (Android 16)
 - [X] Display
 - [X] Fasbootd
 - [X] Flashing

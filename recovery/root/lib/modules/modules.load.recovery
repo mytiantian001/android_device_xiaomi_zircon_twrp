@@ -124,6 +124,7 @@ rt5133-regulator.ko
 rt6160-regulator.ko
 rtc-mt6685.ko
 tee.ko
+miev.ko
 mitee.ko
 mt6375-adc.ko
 mt6375-auxadc.ko
