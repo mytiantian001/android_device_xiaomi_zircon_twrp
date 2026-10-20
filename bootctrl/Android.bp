@@ -30,6 +30,7 @@ cc_library_shared {
 
     shared_libs: [
         "liblog",
+        "libbase",
         "libhidlbase",
         "libhardware",
         "libutils",

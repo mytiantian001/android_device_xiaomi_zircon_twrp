@@ -215,3 +215,6 @@ subsystem mi_display
 
 #sensor
 /dev/hf_manager           0660   system     system
+
+# MTK In-House TEE
+/dev/tee0                 0666   root       root

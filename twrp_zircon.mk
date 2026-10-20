@@ -16,6 +16,10 @@
 
 DEVICE_PATH := device/xiaomi/zircon
 
+# A16 full-manifest buildsystem requires the prebuilt crashrecovery apex's
+# system-server classpath fragment to be declared in the product config
+PRODUCT_APEX_SYSTEM_SERVER_JARS += com.android.crashrecovery:service-crashrecovery
+
 # Inherit from device.mk configuration
 $(call inherit-product, $(DEVICE_PATH)/device.mk)
 

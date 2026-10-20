@@ -148,6 +148,7 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_zircon
 
 # TWRP Configurations
 TW_FRAMERATE := 120
+TARGET_SKIP_ABI_CHECKS := true
 TW_STATUS_ICONS_ALIGN := center
 TW_THEME := portrait_hdpi
 TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"

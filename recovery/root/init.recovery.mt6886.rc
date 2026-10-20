@@ -6,6 +6,8 @@ on init
 on fs
     install_keyring
     start mitee-helper
+    start tee-supplicant
+    chmod 0666 /dev/tee0
     setprop vendor.teefs_state ready
     setprop ro.hardware.gatekeeper mitee
 # We need vold early for metadata encryption
@@ -63,6 +65,7 @@ service mtk.plpath.utils.link /system/bin/mtk_plpath_utils
 on boot
     start health-hal-2-1
     start overrideprops
+    chmod 0666 /dev/tee0
     setprop sys.usb.config adb
 
 on property:twrp.modules.loaded=true
